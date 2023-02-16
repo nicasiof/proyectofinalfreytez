@@ -1,0 +1,192 @@
+/*--------------------------------------------------------------
+# inicialización
+--------------------------------------------------------------*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.divdash {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* (A) hora & "COLOR CODE" */
+.seat {
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+
+.taken {
+    background: #df0000;
+    color: #fff;
+}
+
+.selected {
+    background: #87ff96;
+}
+
+/* (B) hora LAYOUT */
+#layout {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* (C) LEGEND */
+#legend {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 50px auto;
+}
+
+#legend .txt {
+    display: flex;
+    align-items: center;
+}
+
+/* (D) SAVE */
+#save {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 0;
+    color: #fff;
+    background: #00479f;
+}
+
+/* (X) DOES NOT MATTER */
+/* PAGE & BODY */
+* {
+    /*  font-family: arial, sans-serif;*/
+    box-sizing: border-box;
+}
+
+.horas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* WIDGET */
+.widget-wrap {
+    min-width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(13,80,190), rgba(0,220,227));
+}
+
+
+/* FOOTER */
+#code-boxx {
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+#code-boxx a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    background: #b90a0a;
+    color: #fff;
+}
